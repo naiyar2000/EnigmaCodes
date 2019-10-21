@@ -5,9 +5,10 @@ int main()
 {
     int test;
 	long long int i,N,A,B,K,sum,gcd,lcm;
-	scanf("%d",&test);
+	scanf("%d",&test);//test cases
 	for(i=1;i<=test;i++)
-	{   sum=0;
+	{   
+	    sum=0;
 	    scanf("%lld ",&N);
 	    scanf("%lld ",&A);
 	    scanf("%lld ",&B);
